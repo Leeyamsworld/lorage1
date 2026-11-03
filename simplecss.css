@@ -1,0 +1,114 @@
+/* SimpleCSS */
+body {
+font-family: sans-serif;
+background: white;
+}
+* {
+margin: 20px;
+padding: 20px;
+}
+a:link, a { color: blue; }
+a:hover { color: red; }
+a:visited { color: purple; }
+a:active { color: pink; }
+audio {
+border: 3px solid black;
+border-radius: 50px;
+}
+video {
+border: 3px solid black;
+border-radius: 50px;
+}
+img {
+border: 3px solid black;
+border-radius: 50px;
+width: 100%;
+height: auto;
+}
+button {
+color: blue;
+border-radius: 50px;
+background: white;
+}
+.inverted button {
+color: white;
+border-radius: 50px;
+background: blue;
+}
+xmp {
+background: black;
+color: white;
+font-family: monospace;
+}
+iframe, object, embed {
+border: none;
+background: lightgray;
+}
+dialog {
+border-radius: 100%;
+border: 3px solid black;
+color: black;
+background: white;
+width: auto;
+height: auto;
+}
+footer, header, nav {
+background: lightgray;
+}
+h1, h2 {
+color: black;
+}
+h3, h4 {
+color: darkgray
+}
+h5, h6 {
+color: lightgray
+}
+hr {
+border: none;
+border-top: 2px solid white;
+margin: 0;
+padding: 0;
+display: block;
+width: 100%
+}
+input, textarea {
+background-color: transparent;
+border: 3px solid black;
+}
+label {
+width: 100%;
+background-color: #007bff;
+color: white;
+}
+map {
+border: none;
+background: lightgray;
+}
+ul, ol {
+background: lightgray;
+}
+details {
+color: black;
+background: white;
+}
+summary {
+color: white;
+background: black;
+list-style: none;
+}
+select {
+background-color: transparent;
+border: 3px solid black;
+}
+form {
+border-radius: 50px;
+background: lightgray;
+}
+table, tr, td, th, tbody, tfoot, thead {
+background-color: transparent;
+border: 3px solid black;
+}
+mark {
+background: rgba(255, 255, 0, 0.2);
+}
