@@ -104,49 +104,23 @@ ul.menu li a {
   <tr>
     <td style="width: 20%; background-color: lightblue; font-family: sans-serif; padding: 10px; vertical-align: top;">
 			<img src="https://leeyamsworldweb.pages.dev/uploads/newlogo.png" style="width:100%;height:auto;">
-        <div style="background-color: white">
-			<center>
-          <form action="https://sites.google.com/search/leeyamsworldweb" method="GET" class="search-form" target="_blank">
-            <!-- name="s" triggers the ?s= query string in the browser bar -->
-            <input type="text" name="query" placeholder="Search LW..." required="" class="search-input" />
-            <button type="submit" class="search-button">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
-			</center>
-        </div>
-<style>
-      /* Clean layout styling for your input bar */
-.search-form {
-    display: inline-flex;
-    gap: 8px;
-    margin: 20px 0;
-}
-.search-input {
-    padding: 10px 16px;
-    border: 2px solid rgba(66, 135, 245, 0.8);
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.9);
-    color: #000;
-    font-size: 16px;
-    width: 60%;
-	height: 5%;
-}
-.search-button {
-    padding: 10px 20px;
-    background-color: rgba(66, 135, 245, 0.8);
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    width: 20%;
-	height: 5%;
-}
-.search-button:hover {
-    background-color: #4a8fff;
-}
-</style>
+<center>
+              <form role="search" method="get" id="searchform" class="searchform" action="https://sites.google.com/search/leeyamsworldweb" target="_parent">
+                <div>
+                  <label class="screen-reader-text" style="background: #007bff; display: block; font-family: sans-serif; color: white; width: 100%; text-align: center; font-weight: bold;" for="query">
+                    Search for:
+                  </label>
+<div style="display: block; background: #3395ff; width: 100%; height: auto;">
+                  <input type="text" value="" placeholder="Search LeeyamsworldWeb..." name="query" id="query" style="border-radius: 50px; width: 300px;" />
+                  <input type="submit" id="searchsubmit" value="🔍" />
+&nbsp;
+&nbsp;
+<br>
+<br>
+</div>
+                </div>
+              </form>
+<center>
 		<h1>Leeyamsworld</h1>
       <p>(Since 2016)</p>
       <h2>FAQ</h2>
